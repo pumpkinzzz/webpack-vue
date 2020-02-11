@@ -4,9 +4,14 @@
   "description": "",
   "private": true,
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "webpack --config build/webpack.config.js",
-    "start": "webpack-dev-server --inline --progress  --open --config build/webpack.config.js"
+    "dev": "webpack-dev-server --inline --progress --open --config build/webpack.dev.config.js",
+    "staging": "webpack-dev-server --inline --progress --open --config build/webpack.staging.config.js",
+    "prod": "webpack-dev-server --inline --progress --open --config build/webpack.prod.config.js",
+    "unit": "jest --config test/unit/jest.conf.js --coverage",
+    "e2e": "node test/e2e/runner.js",
+    "test": "npm run unit && npm run e2e",
+    "build-prod": "webpack --config build/webpack.prod.config.js",
+    "build-staging": "webpack --config build/webpack.test.config.js"
   },
   "author": "",
   "license": "ISC",
@@ -18,7 +23,8 @@
     "vue-template-compiler": "^2.6.11",
     "webpack": "^4.8.3",
     "webpack-cli": "^3.1.1",
-    "webpack-dev-server": "^3.1.4"
+    "webpack-dev-server": "^3.1.4",
+    "webpack-merge": "^4.2.2"
   },
   "dependencies": {
     "vue": "^2.6.11",
