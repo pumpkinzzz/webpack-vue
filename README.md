@@ -1,4 +1,4 @@
-# webpack-vue-boilerplate
+# webpack-vue
 
 A really basic and simple template with Vuejs and Webpack 4
 
