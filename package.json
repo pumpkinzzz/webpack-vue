@@ -11,7 +11,7 @@
     "e2e": "node test/e2e/runner.js",
     "test": "npm run unit && npm run e2e",
     "build-prod": "webpack --config build/webpack.prod.config.js",
-    "build-staging": "webpack --config build/webpack.test.config.js"
+    "build-staging": "webpack --config build/webpack.staging.config.js"
   },
   "author": "Marco Ragno",
   "license": "ISC",
