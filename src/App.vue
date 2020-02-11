@@ -1,11 +1,13 @@
 <template>
   <div>
-    <h1>Hello World</h1>
+    <h1>Webpack + Vue</h1>
   </div>
 </template>
 
 <style scoped>
-h1 {
-  background: red;
+h1,
+h2 {
+  text-align-last: center;
+  margin: 1em;
 }
 </style>

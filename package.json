@@ -1,7 +1,7 @@
 {
-  "name": "vue-webpack",
+  "name": "vue-webpack-boilerplate",
   "version": "1.0.0",
-  "description": "",
+  "description": "A simple and basic Vuejs and Webpack 4 boilerplate",
   "private": true,
   "scripts": {
     "dev": "webpack-dev-server --inline --progress --open --config build/webpack.dev.config.js",
@@ -13,7 +13,7 @@
     "build-prod": "webpack --config build/webpack.prod.config.js",
     "build-staging": "webpack --config build/webpack.test.config.js"
   },
-  "author": "",
+  "author": "Marco Ragno",
   "license": "ISC",
   "devDependencies": {
     "css-loader": "^3.4.2",
