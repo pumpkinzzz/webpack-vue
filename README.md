@@ -2,13 +2,11 @@
 
 A really basic and simple template with Vuejs and Webpack 4
 
-[![NPM Version][npm-image]][npm-url]
-
 ## Install
 
 ```bash
-git clone https://webpack-vue-boilerplate
-cd webpack-vue-boilerplate
+git clone https://github.com/pumpkinzzz/webpack-vue.git
+cd webpack-vue
 npm i
 npm run dev
 ```
