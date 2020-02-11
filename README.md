@@ -8,12 +8,13 @@ A really basic and simple template with Vuejs and Webpack 4
 git clone https://github.com/pumpkinzzz/webpack-vue.git
 cd webpack-vue
 npm i
-npm run dev
 ```
 
 ## Usage
 
-TODO
+```bash
+npm run dev
+```
 
 ## License
 
